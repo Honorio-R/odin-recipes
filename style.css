@@ -1,0 +1,92 @@
+html{
+	font-family: 'Courier New', Courier, monospace;
+}
+#home-body{
+	background-color: rgb(255, 228, 196);
+	top: 20%;
+	left: 50%;
+	margin-top: -9em;
+	margin-left: -15em;
+	position: fixed;
+}
+
+
+#home-gif{
+	border-style: groove;
+	border-radius: 25px;
+	border-width: 5px;
+	border-color: rgb(128, 0, 0);
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	height: 400px;
+	width: 400px;
+}
+
+#list-head{
+	color: rgb(128, 0, 0) ;
+	text-align: center;
+	font-weight: 800;
+	font-size: 40px;
+}
+
+.list-of-recipes{
+	color: rgb(199, 106, 43);
+	font-weight: 600;
+}
+
+
+/* PAGES CODE */
+
+#home-head,#carbonara-head,#mac-and-cheese-head,#peach-cake-head{
+	text-align: center;
+	color: rgb(128, 0, 0);; 
+	font-size: 50px;
+	font-weight: 900;
+}
+
+#carbonara-body,#mac-and-cheese-body,#peach-cake-body{
+	background-color: rgb(255, 228, 196);
+}
+
+.recipe-image{
+	border-style: solid;
+	border-color: rgb(128, 0, 0);;
+	height: 600px;
+	width: 800px;
+	top: 50%;
+	left: 43.5%;
+	margin-left: -15em;
+	position: relative;
+}
+
+.head{
+	font-size: 25px;
+	font-weight: 800px;
+	color: rgb(128, 0, 0);
+}
+.steps-head,
+.ingridients-peach-cake-head,
+.brown-sugar-icing-head{
+	font-size: 20px;
+	font-weight: 800px;
+	color: rgb(128, 0, 0);
+}
+
+.content{
+	color: rgb(199, 106, 43); 
+	font-size: 18px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover, a:focus{
+	color: rgb(255, 255, 255);
+}
+
+a:active{
+	color: rgb(181, 10, 236);
+}
